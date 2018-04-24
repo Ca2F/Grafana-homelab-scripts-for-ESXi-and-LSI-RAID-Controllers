@@ -1,7 +1,7 @@
 # Grafana-homelab-scripts-for-ESXi-and-LSI-RAID-Controllers
 A set of scripts customized for displaying relevant home lab metrics from ESXi and a attached LSI RAID controller.
 
-[![Grafana Dashboard](https://github.com/Ca2F/Grafana-homelab-scripts-for-ESXi-and-LSI-RAID-Controllers/blob/master/grafana-github.png?raw=true)]
+![Grafana Dashboard](https://github.com/Ca2F/Grafana-homelab-scripts-for-ESXi-and-LSI-RAID-Controllers/blob/master/grafana-github.png?raw=true)
 
 I set out to create an awesome Grafana Dashboard for my home lab a couple of weeks ago. 
 It is now in a presentable state, but i will update this further when i find the time.
@@ -15,7 +15,7 @@ If you've ever used the MegaRAID storage java utility you know it's slow, prone 
 My biggest problem with it is that i can't look up information easy on it. 
 This should have been easily resolved in ESXi vSphere, but the only information you get there looks something like this:
 
-[![esxi storage](https://github.com/Ca2F/Grafana-homelab-scripts-for-ESXi-and-LSI-RAID-Controllers/blob/master/esxi-storage.png?raw=true)]
+![esxi storage](https://github.com/Ca2F/Grafana-homelab-scripts-for-ESXi-and-LSI-RAID-Controllers/blob/master/esxi-storage.png?raw=true)
 
 Not much information there, but it could be useful and i know you can pull the information with SNMP if you want. 
 But that is not the data i want, i want the induvidual disk temperatures since my server is in a tower case and i want to monitor every temperature i can get. I want CPU temps, system temps, disk temps, RAID chip temps etc.
