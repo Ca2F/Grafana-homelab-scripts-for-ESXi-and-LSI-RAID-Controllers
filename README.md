@@ -30,25 +30,25 @@ How to set it up is not part of this readme, but plenty of guides out there both
 All the scripts should be semi readable and easy to adjust to your enviroment, this git is a friendly share more then a serious project. 
 However i really hope someone can benefit from it, especially for those of you wanting to read disk temperatures for a LSI RAID-controller installed on a ESXi host. It might be a special usecase, but should not be unique to only me i hope.
 
-SETUP:
+### SETUP:
 
 Every scripts has a small readme inside, but i'll put the dependencies here:
 
-apt-get install sshpass
-apt-get install ipmi-tool
-apt-get install net-snmp
-git clone https://github.com/Napsty/check_esxi_hardware
+        $ apt-get install sshpass
+        $ apt-get install ipmi-tool
+        $ apt-get install net-snmp
+        $ git clone https://github.com/Napsty/check_esxi_hardware
 
 And most importantly storcli for the ESXi host:
 
-https://www.broadcom.com/products/storage/raid-controllers/megaraid-sas-9271-8i#downloads
-Then under Management Sofware and Tools locate "Megaraid Storcli" for ALL OS
-Get the zip file and find the vmware folder, it should contain
-Several vmware folders, depending on your ESXi version:
+    https://www.broadcom.com/products/storage/raid-controllers/megaraid-sas-9271-8i#downloads
+    Then under Management Sofware and Tools locate "Megaraid Storcli" for ALL OS
+    Get the zip file and find the vmware folder, it should contain
+    Several vmware folders, depending on your ESXi version:
 
-VMware KL (ESXi4.0, ESXi4.0 U1 and all other ESXi4.0 updates)
-VMware MN (ESXi5.0 and its updates, ESXi5.1 and its updates)
-VMware OP (ESXi5.5 and its updates, ESXi6.0 and its updates, and ESXi 6.5)
+    VMware KL (ESXi4.0, ESXi4.0 U1 and all other ESXi4.0 updates)
+    VMware MN (ESXi5.0 and its updates, ESXi5.1 and its updates)
+    VMware OP (ESXi5.5 and its updates, ESXi6.0 and its updates, and ESXi 6.5)
 
 
 
