@@ -19,6 +19,10 @@ This should have been easily resolved in ESXi vSphere, but the only information 
 
 Not much information there, but it could be useful and i know you can pull the information with SNMP if you want. 
 But that is not the data i want, i want the induvidual disk temperatures since my server is in a tower case and i want to monitor every temperature i can get. I want CPU temps, system temps, disk temps, RAID chip temps etc.
+The ESXi temperature section provides only this:
+
+![esxi temps](https://github.com/Ca2F/Grafana-homelab-scripts-for-ESXi-and-LSI-RAID-Controllers/blob/master/esxi-temp.png?raw=true)
+
 
 This whole setup is installed on a VM, running Docker with Grafana and InfluxDB as Docker containers.
 How to set it up is not part of this readme, but plenty of guides out there both for Docker and regular install's.
